@@ -77,8 +77,12 @@ SQL : [Data Cleaning and Final Table](https://github.com/shaili24/Google_Data_An
 
 1. Trips more than 1 day and less than a minute have been removed.
 2. Created a final table with 3 more columns(ride_length, month, day_of_week) that will help in the analysis
-3. Final rows in data_set are : **4263430**
+3. Final rows in data_set are : **4,263,430**
 
+---
+### Analysing Data: 
+
+SQL : [Data Analysis]()
    
 
 
