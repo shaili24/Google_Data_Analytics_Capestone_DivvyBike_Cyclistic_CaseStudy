@@ -38,3 +38,16 @@ I have downloaded Cyclistic's historical trip data from Jan 2022 to Dec 2022 fro
 ---
 ### Process
 
+1. Firstly I downloaded the data and observed the data. It has 13 rows: which contain ride_id, bike_type, start_date, end_date, start_station, end_station, start station_longitude & latitude, end station_longitude & latitude and also member_type
+2. I observe that there are too many missing values in the data: 
+   
+   <img width="1081" alt="missing_value" src="https://github.com/shaili24/Google_Data_Analytics_Capestone_DivvyBike_Cyclistic_CaseStudy/assets/37610623/66faf2c1-4d7b-4bd0-97d8-1cd1e491085e">
+
+**Data-Cleaning:** I used Excel to clean the missing values from the data. Used the *filter* function and deleted the columns which has missing values. 
+
+**[Data-Combing:](https://console.cloud.google.com/bigquery?sq=602252548088:1d143a74fa4b43f1835874e26ca015a7)** For further analysis I combine all the 12 data sets into 1 dataset using '*Big-Query*'
+- I haven't used Excel to combine data as it only can have 1,048,576 rows but we have a total of 4,369,360 rows
+  
+  - <img width="184" alt="Screenshot 2023-09-11 at 10 05 31 AM" src="https://github.com/shaili24/Google_Data_Analytics_Capestone_DivvyBike_Cyclistic_CaseStudy/assets/37610623/2d3f86ce-76b0-4fd7-9cf2-2a12243150c7">
+
+
