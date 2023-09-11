@@ -68,7 +68,9 @@ I have downloaded Cyclistic's historical trip data from Jan 2022 to Dec 2022 fro
 
    <img width="464" alt="started_at,ended_at" src="https://github.com/shaili24/Google_Data_Analytics_Capestone_DivvyBike_Cyclistic_CaseStudy/assets/37610623/255527e1-b10a-4806-a90d-3636bff6277f">
 
-5. Also with the start and end times of the trip, I got **157 trips** that were greater than a day and **105909** less than a minute. 
+5. Also with the start and end times of the trip, I got **157 trips** that were greater than a day and **105909** less than a minute that need to be cleaned from the dataset.
+
+   
 
 
 
