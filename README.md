@@ -50,4 +50,6 @@ I have downloaded Cyclistic's historical trip data from Jan 2022 to Dec 2022 fro
   
   - <img width="184" alt="Screenshot 2023-09-11 at 10 05 31 AM" src="https://github.com/shaili24/Google_Data_Analytics_Capestone_DivvyBike_Cyclistic_CaseStudy/assets/37610623/2d3f86ce-76b0-4fd7-9cf2-2a12243150c7">
 
+**[Data-Exploration:]()**
+
 
