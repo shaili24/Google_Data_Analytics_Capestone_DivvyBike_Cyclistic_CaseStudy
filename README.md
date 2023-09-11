@@ -82,10 +82,28 @@ SQL : [Data Cleaning and Final Table](https://github.com/shaili24/Google_Data_An
 ---
 ### Analysing Data: 
 
-SQL : [Data Analysis]()
+SQL : [Data Analysis](https://github.com/shaili24/Google_Data_Analytics_Capestone_DivvyBike_Cyclistic_CaseStudy/blob/main/combine_dataset.sql)
+Tableau:  [Visualization](https://public.tableau.com/app/profile/shaili.dalal/viz/GoogleCertificate-Divvy_BikeCaseStudyDashboard/Dashboard4)
+
+From Analysis and Visualisation I found different data: 
+
+1. Members and causual riders are compared on basis on type of bike
+   <img width="685" alt="Screenshot 2023-09-11 at 4 22 27 PM" src="https://github.com/shaili24/Google_Data_Analytics_Capestone_DivvyBike_Cyclistic_CaseStudy/assets/37610623/383dd2f7-3ffd-4f4a-85dd-d47f12ebfc3a">
+- In this data, it's evident that members make up a majority of the contributions, accounting for approximately 59.60%, whereas casual riders make up roughly 40.40% of the contributions. Additionally, the most frequently utilized bike types are classic_bike, electric_bike, followed by docked_bike. It's worth noting that docked bikes are exclusively utilized by casual riders, while in the case of classic and electric bikes, members contribute more.
+
+2. Calculating the average trip duration based on factors such as the month, day of the week, and hour of the day will allow us to discern the variations in trip duration between regular members and casual riders.
    
+   <img width="655" alt="Screenshot 2023-09-11 at 4 35 26 PM" src="https://github.com/shaili24/Google_Data_Analytics_Capestone_DivvyBike_Cyclistic_CaseStudy/assets/37610623/2ded3451-cd9c-4cd3-9c7f-7fc555b1303b">
 
+- From the provided data, it becomes evident that casual riders tend to have longer trip durations compared to regular members. Additionally, it's noticeable that trip durations for regular members remain relatively consistent throughout the month, week, and different times of the day. In contrast, casual members experience longer trip durations during the spring and summer seasons, on weekends, and during the afternoon hours.
 
+3. Number of trips distributed by Month, Day of week and Hour of day
 
+   <img width="678" alt="Screenshot 2023-09-11 at 4 44 25 PM" src="https://github.com/shaili24/Google_Data_Analytics_Capestone_DivvyBike_Cyclistic_CaseStudy/assets/37610623/24ed2037-6a13-4d1e-a3da-fa2bfb78b3eb">
 
+- **Month :** Regarding the monthly trip patterns, both casual riders and members demonstrate similar trends, with higher trip numbers during the spring and summer months, and fewer trips in the winter. The difference between casual riders and members is smallest during July, which falls in the summer season.
+- **Week of the day:** In terms of trip patterns during the days of the week, casual riders show an increase in trips on Friday, Saturday, and Sunday, with a decline in trips during the weekdays. On the other hand, members tend to take more trips on weekdays.
+- **Hours of the day:** Members display two distinct peaks in their daily trip patterns. One peak occurs early in the morning, roughly from 6 am to 8 am, and the other peak is in the evening, around 4 pm to 8 pm. In contrast, casual riders experience a steady increase in the number of trips throughout the day, reaching their peak in the evening, after which the number of trips gradually declines.
+
+4. I've compiled a roster of the top 20 stations where the highest number of trips originate, specifically noting the names of the starting stations.
 
