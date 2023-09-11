@@ -48,8 +48,17 @@ I have downloaded Cyclistic's historical trip data from Jan 2022 to Dec 2022 fro
 **[Data-Combing:](https://github.com/shaili24/Google_Data_Analytics_Capestone_DivvyBike_Cyclistic_CaseStudy/blob/main/combine_dataset.sql)** For further analysis I combine all the 12 data sets into 1 dataset using '*Big-Query*'
 - I haven't used Excel to combine data as it only can have 1,048,576 rows but we have a total of 4,369,360 rows
   
-  - <img width="184" alt="Screenshot 2023-09-11 at 10 05 31 AM" src="https://github.com/shaili24/Google_Data_Analytics_Capestone_DivvyBike_Cyclistic_CaseStudy/assets/37610623/2d3f86ce-76b0-4fd7-9cf2-2a12243150c7">
+  <img width="184" alt="Screenshot 2023-09-11 at 10 05 31 AM" src="https://github.com/shaili24/Google_Data_Analytics_Capestone_DivvyBike_Cyclistic_CaseStudy/assets/37610623/2d3f86ce-76b0-4fd7-9cf2-2a12243150c7">
 
-**[Data-Exploration:]()**
+**[Data-Exploration:](https://github.com/shaili24/Google_Data_Analytics_Capestone_DivvyBike_Cyclistic_CaseStudy/blob/main/Data_Exploration.sql)** 
+1. Check the ride_id length, which was 16
+- Also check for ride_id length < OR > than 16. There was no data with ride_id > OR < 16
+
+   <img width="265" alt="ride_length" src="https://github.com/shaili24/Google_Data_Analytics_Capestone_DivvyBike_Cyclistic_CaseStudy/assets/37610623/a26b73af-8925-49f0-9e4b-e6102612312f">
+
+2. From data we got to know that there are 3 unique type of bikes in data (rideable_type)
+
+   <img width="397" alt="Rideable_type" src="https://github.com/shaili24/Google_Data_Analytics_Capestone_DivvyBike_Cyclistic_CaseStudy/assets/37610623/175c7b09-23c6-417b-b07a-76af0132b0c5">
+
 
 
