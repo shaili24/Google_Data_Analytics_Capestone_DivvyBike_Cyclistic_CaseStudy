@@ -3,6 +3,10 @@
 -- Length of ride_id
 SELECT LENGTH(ride_id) AS Length_ride_id FROM `divvybikes-397120.2022_divvybikes.2022_divvydata` LIMIT 1;
 
+-- ride_id >16 or < 16
+SELECT * FROM `divvybikes-397120.2022_divvybikes.2022_divvydata`
+WHERE Length(ride_id) >16 OR Length(ride_id) < 16; 
+
 -- There are 3 unique types of bike in data. Showing count value for each biketype
 SELECT rideable_type, Count(*) AS count_by_ridetype FROM `divvybikes-397120.2022_divvybikes.2022_divvydata` 
 GROUP BY (rideable_type);
