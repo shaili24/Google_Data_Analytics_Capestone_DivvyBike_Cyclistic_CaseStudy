@@ -60,6 +60,16 @@ I have downloaded Cyclistic's historical trip data from Jan 2022 to Dec 2022 fro
 
    <img width="397" alt="Rideable_type" src="https://github.com/shaili24/Google_Data_Analytics_Capestone_DivvyBike_Cyclistic_CaseStudy/assets/37610623/175c7b09-23c6-417b-b07a-76af0132b0c5">
 
+3. There are 2 types of member : casual,member
+   
+   <img width="386" alt="count_by_member" src="https://github.com/shaili24/Google_Data_Analytics_Capestone_DivvyBike_Cyclistic_CaseStudy/assets/37610623/4cc3e414-3a9d-4da1-8f98-ce903a9b7915">
+
+4. The started_at and ended_at shows start and end time of the trip in YYYY-MM-DD hh:mm:ss UTC format. New column ride_length can be created to find the total trip duration.
+
+   <img width="464" alt="started_at,ended_at" src="https://github.com/shaili24/Google_Data_Analytics_Capestone_DivvyBike_Cyclistic_CaseStudy/assets/37610623/255527e1-b10a-4806-a90d-3636bff6277f">
+
+
+
 
 
 
