@@ -56,18 +56,19 @@ I have downloaded Cyclistic's historical trip data from Jan 2022 to Dec 2022 fro
 
    <img width="265" alt="ride_length" src="https://github.com/shaili24/Google_Data_Analytics_Capestone_DivvyBike_Cyclistic_CaseStudy/assets/37610623/a26b73af-8925-49f0-9e4b-e6102612312f">
 
-2. From data we got to know that there are 3 unique type of bikes in data (rideable_type)
+2. From the data we got to know that there are 3 unique types of bikes in data (rideable_type)
 
    <img width="397" alt="Rideable_type" src="https://github.com/shaili24/Google_Data_Analytics_Capestone_DivvyBike_Cyclistic_CaseStudy/assets/37610623/175c7b09-23c6-417b-b07a-76af0132b0c5">
 
-3. There are 2 types of member : casual,member
+3. There are 2 types of members: casual, member
    
    <img width="386" alt="count_by_member" src="https://github.com/shaili24/Google_Data_Analytics_Capestone_DivvyBike_Cyclistic_CaseStudy/assets/37610623/4cc3e414-3a9d-4da1-8f98-ce903a9b7915">
 
-4. The started_at and ended_at shows start and end time of the trip in YYYY-MM-DD hh:mm:ss UTC format. New column ride_length can be created to find the total trip duration.
+4. The started_at and ended_at show the start and end time of the trip in YYYY-MM-DD hh:mm:ss UTC format. A new column ride_length can be created to find the total trip duration.
 
    <img width="464" alt="started_at,ended_at" src="https://github.com/shaili24/Google_Data_Analytics_Capestone_DivvyBike_Cyclistic_CaseStudy/assets/37610623/255527e1-b10a-4806-a90d-3636bff6277f">
 
+5. Also with the start and end times of the trip, I got **157 trips** that were greater than a day and **105909** less than a minute. 
 
 
 
