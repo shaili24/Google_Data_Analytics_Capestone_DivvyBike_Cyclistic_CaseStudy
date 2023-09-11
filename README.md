@@ -70,6 +70,15 @@ I have downloaded Cyclistic's historical trip data from Jan 2022 to Dec 2022 fro
 
 5. Also with the start and end times of the trip, I got **157 trips** that were greater than a day and **105909** less than a minute that need to be cleaned from the dataset.
 
+---
+### Data Cleaning & Final Table:
+
+SQL : [Data Cleaning and Final Table](https://github.com/shaili24/Google_Data_Analytics_Capestone_DivvyBike_Cyclistic_CaseStudy/blob/main/Cleaned_And_Final_Tab.sql)
+
+1. Trips more than 1 day and less than a minute have been removed.
+2. Created a final table with 3 more columns(ride_length, month, day_of_week) that will help in the analysis
+3. Final rows in data_set are : **4263430**
+
    
 
 
